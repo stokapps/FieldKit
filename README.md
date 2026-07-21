@@ -1,11 +1,13 @@
 # FieldKit
 
-**A portable kit of [Agent Skills](https://agentskills.io) for Claude and other AI coding tools.**
+**A portable kit of [Agent Skills](https://agentskills.io) for Claude and other AI agents.**
 
-Each skill is a small folder of instructions that teaches an AI agent how to do one thing
-well. Drop a skill into your tool of choice and the agent picks it up automatically when
-it's relevant — or you invoke it by name. This repo is a place to collect, version, and
-share those skills.
+Reusable skills that help delivery work move faster — drafting solution docs, shaping
+presentations, running compliance checks, and anything else you do often enough to be worth
+teaching an agent once. Each skill is a small folder of instructions that teaches an agent
+to do one thing well: drop it into your tool of choice and the agent picks it up
+automatically when it's relevant, or you invoke it by name. This repo is a place to collect,
+version, and share those skills.
 
 > New to skills? A **skill** is just a `SKILL.md` file (plus any optional supporting files)
 > with a name and a description. The agent reads the description to decide when the skill
@@ -21,9 +23,10 @@ share those skills.
 | :---- | :----------- | :------------- |
 | [`conventional-commits`](skills/conventional-commits) | Writes clear git commit messages that follow the Conventional Commits spec. | you're committing code, want a commit message, or mention changelogs / semver. |
 
-> `conventional-commits` ships as a working example of the format. Keep it, tweak it, or
-> delete it — then add your own with the help of [`templates/SKILL.md`](templates/SKILL.md)
-> and [CONTRIBUTING.md](CONTRIBUTING.md).
+> `conventional-commits` ships as a working example of the SKILL.md format — skills can
+> automate almost any repeatable task, from documents and decks to reviews and checklists,
+> not just code. Keep it, tweak it, or delete it, then add your own with the help of
+> [`templates/SKILL.md`](templates/SKILL.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ---
 
