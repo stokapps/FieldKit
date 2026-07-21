@@ -1,0 +1,14 @@
+# Packaged skills (build artifacts from scripts/package-skill.sh)
+dist/
+*.zip
+*.skill
+
+# Python caches (from any bundled scripts)
+__pycache__/
+*.py[cod]
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
