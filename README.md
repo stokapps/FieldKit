@@ -22,6 +22,7 @@ version, and share those skills.
 | Skill | What it does | Triggers when… |
 | :---- | :----------- | :------------- |
 | [`conventional-commits`](skills/conventional-commits) | Writes clear git commit messages that follow the Conventional Commits spec. | you're committing code, want a commit message, or mention changelogs / semver. |
+| [`spec-driven-development`](skills/spec-driven-development) | Manages the spec → plan → implement → closeout lifecycle, including reconciling specs with what was actually built and archiving finished plans to `docs/implemented/`. | you mention specs, implementation plans, or design docs; a planned feature ships; or stale plans need auditing. |
 
 > `conventional-commits` ships as a working example of the SKILL.md format — skills can
 > automate almost any repeatable task, from documents and decks to reviews and checklists,
